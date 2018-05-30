@@ -30,7 +30,7 @@ header{
   display: inline-block;
   /*border-bottom: 4px solid #000;*/
   box-sizing: border-box;
-  padding: 22px 17px;
+  padding: 22px 0;
   cursor: pointer;
 }
 .topnav li a:hover{
@@ -42,7 +42,8 @@ header{
 	text-align: center;
   border-bottom: 2px solid transparent;
   cursor: pointer;
-  padding: 21px 14px;
+  padding: 21px 18px;
+  transition: all .3s;
 }
 .city{
   font-size: 45px;
