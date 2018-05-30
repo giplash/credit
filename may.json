@@ -1,0 +1,92 @@
+{
+  "month": "May",
+  "categories": [
+    {
+      "name": "Роллы",
+      "dishes": [
+        {
+          "dish": "Phila",
+          "cost": 30,
+          "restaurant": "Красный октябрь",
+          "date": "20.03.2018",
+          "description": "Lorem",
+          "isFavorite": true
+        },
+        {
+          "dish": "Kappa",
+          "cost": 100,
+          "restaurant": "Тазик Сталина",
+          "date": "01.05.2018",
+          "description": "Lorem",
+          "isFavorite": false
+        },
+        {
+          "dish": "Виська",
+          "cost": 40,
+          "restaurant": "Старая келья",
+          "date": "17.05.2018",
+          "description": "Lorem",
+          "isFavorite": false
+        }
+      ]
+    },
+    {
+      "name": "Пиццы",
+      "dishes": [
+        {
+          "dish": "Нюша",
+          "cost": 15,
+          "restaurant": "Пин-код",
+          "date": "06.05.2018",
+          "description": "Lorem",
+          "isFavorite": true
+        },
+        {
+          "dish": "Пикантная",
+          "cost": 100,
+          "restaurant": "Дом праления",
+          "date": "07.05.2018",
+          "description": "Lorem",
+          "isFavorite": false
+        },
+        {
+          "dish": "Виталя приёмный",
+          "cost": 75,
+          "restaurant": "Старая келья",
+          "date": "30.02.2018",
+          "description": "Lorem",
+          "isFavorite": false
+        }
+      ]
+    },
+    {
+      "name": "Салаты",
+      "dishes": [
+        {
+          "dish": "Весенний",
+          "cost": 57,
+          "restaurant": "Альянс",
+          "date": "09.05.2018",
+          "description": "Lorem",
+          "isFavorite": true
+        },
+        {
+          "dish": "Тамада",
+          "cost": 45,
+          "restaurant": "Duster",
+          "date": "12.05.2018",
+          "description": "Lorem",
+          "isFavorite": false
+        },
+        {
+          "dish": "Виталя-сабака",
+          "cost": 75,
+          "restaurant": "Старая келья",
+          "date": "24.02.2018",
+          "description": "Lorem",
+          "isFavorite": false
+        }
+      ]
+    }
+  ]
+}
