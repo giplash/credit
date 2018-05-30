@@ -1,34 +1,50 @@
 <% include header.ejs %>
-    <main>
-        <div class="main_items">           
-            <% for (let i = 0; i < data.categories.length; i++) { %>
-              <div class="category">
-                <p><%= data.categories[i].name %></p>
-                <% for(let j = 0; j < data.categories[i].dishes.length; j++) { %>
-                  <div class="dish">
-                    <img src="<%= data.categories[i].dishes[j].img %>" alt="" height='150px'>
-                    <div class="info">
-                      <div class="dishName">"<%= data.categories[i].dishes[j].dish %>"</div>
-                      <div class="dishCost">Цена: <%= data.categories[i].dishes[j].cost %></div>
-                      <div class="dishRestaurant">Ресторан: "<%= data.categories[i].dishes[j].restaurant %>"</div>
-                    </div>
-                    <div class="description">
-                      <p><%= data.categories[i].dishes[j].description  %></p>
-                    </div>
-                    <div class="likes">
-                        <img src="/img/blackHeart.png" width="40px" alt="likes">
-                        <span class="amount">0</span>
-                    </div>
-                        <img class="top" src="/img/star.png" width="80px" alt="star">
-                    <div class="date">
-                        <p><%= data.categories[i].dishes[j].date  %></p>
-                    </div>                    
-                  </div>
-                <% } %>
+<main>
+    <div class="main_items">           
+        <% for (let i = 0; i < data.categories.length; i++) { %>
+          <div class="category">
+            <p><%= data.categories[i].name %></p>
+            <% for(let j = 0; j < data.categories[i].dishes.length; j++) { %>
+              <div class="dish">
+                <img src="<%= data.categories[i].dishes[j].img %>" alt="" height='150px'>
+                <div class="info">
+                  <div class="dishName">"<%= data.categories[i].dishes[j].dish %>"</div>
+                  <div class="dishCost">Цена: <%= data.categories[i].dishes[j].cost %></div>
+                  <div class="dishRestaurant">Ресторан: "<%= data.categories[i].dishes[j].restaurant %>"</div>
                 </div>
-              <% } %>             
-          </div>
-        </div>
-    </main>
-</body>
-</html>
+                <div class="description">
+                  <p><%= data.categories[i].dishes[j].description  %></p>
+                </div>
+                <% const width = data.categories[i].dishes[j].isFavorite ? '80px' : '0px'%>
+                <div class="likes">
+                    <img src="/img/blackHeart.png" width="40px" alt="likes">
+                    <span class="amount"><%= parseInt(Math.random() * 100) %></span>
+                </div>
+                    <img class="top" src="/img/star.png" width="<%= width %>" alt="star">
+                <div class="date">
+                    <p><%= data.categories[i].dishes[j].date  %></p>
+                </div>                    
+              </div>
+            <% } %>
+            </div>
+          <% } %>             
+      </div>
+    </div>
+</main>
+<script>
+  const likes = document.querySelectorAll('.likes');
+  likes.forEach(function(item) {
+    item.children[0].addEventListener('click', function() {
+      if (!(this.getAttribute('clicked') == 'true')) {
+        this.setAttribute('src', '/img/redHeart.png');
+        this.setAttribute('clicked', 'true');
+        this.nextSibling.nextSibling.innerHTML = +this.nextSibling.nextSibling.innerHTML + 1
+      } else {
+        this.setAttribute('src', '/img/blackHeart.png');
+        this.setAttribute('clicked', 'false');
+        this.nextSibling.nextSibling.innerHTML = +this.nextSibling.nextSibling.innerHTML - 1
+      }        
+    })
+  })
+</script>
+<% include footer.ejs %>
