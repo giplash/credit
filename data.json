@@ -1,0 +1,32 @@
+[
+  {
+    "month": "March",
+    "categories": [
+      {
+        "name": "Rolls",
+        "dishes": [
+          {
+            "dish": "Phila",
+            "cost": 30,
+            "restaurant": "Garage",
+            "date": "13.04.2018",
+            "description": "Lorem",
+            "isFavorite": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "month": "April",
+    "categories": [
+
+    ]
+  },
+  {
+    "month": "May",
+    "categories": [
+      
+    ]
+  }
+]
