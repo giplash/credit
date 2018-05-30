@@ -1,0 +1,92 @@
+{
+  "month": "April",
+  "categories": [
+    {
+      "name": "Роллы",
+      "dishes": [
+        {
+          "dish": "Филадельфия",
+          "cost": 20,
+          "restaurant": "Листопад",
+          "date": "15.04.2018",
+          "description": "Lorem",
+          "isFavorite": true
+        },
+       {
+          "dish": "Калифорния",
+          "cost": 15,
+          "restaurant": "Vkafe",
+          "date": "25.04.2018",
+          "description": "Lorem",
+          "isFavorite": false
+        },
+      {
+          "dish": "Нью-Йорк",
+          "cost": 25,
+          "restaurant": "Marriot",
+          "date": "14.04.2018",
+          "description": "Lorem",
+          "isFavorite": false
+        }
+      ]
+    },
+    {
+      "name": "Салаты",
+      "dishes": [
+        {
+          "dish": "Цезарь",
+          "cost": 20,
+          "restaurant": "Коммунист",
+          "date": "05.04.2018",
+          "description": "Lorem",
+          "isFavorite": true
+        },
+       {
+          "dish": "Оливье",
+          "cost": 10,
+          "restaurant": "Чайхона",
+          "date": "03.04.2018",
+          "description": "Lorem",
+          "isFavorite": false
+        },
+      {
+          "dish": "Селедка под шубой",
+          "cost": 12,
+          "restaurant": "Рюмочная №1",
+          "date": "25.04.2018",
+          "description": "Lorem",
+          "isFavorite": false
+        }
+      ]
+    },
+    {
+      "name": "Пиццы",
+      "dishes": [
+        {
+          "dish": "Маргарита",
+          "cost": 24,
+          "restaurant": "На пляже",
+          "date": "07.04.2018",
+          "description": "Lorem",
+          "isFavorite": true
+        },
+       {
+          "dish": "4 сыра",
+          "cost": 15,
+          "restaurant": "Ленин",
+          "date": "08.04.2018",
+          "description": "Lorem",
+          "isFavorite": false
+        },
+      {
+          "dish": "Пеперони",
+          "cost": 19,
+          "restaurant": "Красный Октябрь",
+          "date": "25.04.2018",
+          "description": "Lorem",
+          "isFavorite": false
+        }
+      ]
+    }
+  ]
+  }
