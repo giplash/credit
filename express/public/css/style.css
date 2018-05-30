@@ -111,13 +111,16 @@ main{
   top:-50px;
   left:-48px;
 }
-.likes{
+.like{
   position: absolute;
   right: 35px;
-  top: 10px;
+  top: 5px;
 }
 .amount{
   font-size: 20px;
+  position: absolute;
+  right: 25px;
+  top: 25px;
 }
 footer{
 	flex: 0 0 auto;
