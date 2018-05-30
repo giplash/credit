@@ -50,13 +50,41 @@ main{
   justify-content: space-between;
 }
 .category{
-  max-width: 700px;
+  width: 700px;
 }
 .category > p{
   font-size: 40px;
   font-weight: bold;
+  margin-top: 50px;
 }
 .dish{
   width: 100%;
   border: 1px solid rgb(163, 13, 13);
-} 
+  margin-top: 30px;
+  overflow: auto;
+}
+.dish > img{
+  float: left;
+  margin: 15px;
+  position: relative;
+}
+.info{
+  margin: 15px;
+  padding-top: 15px;
+  font-size: 20px;
+}
+.dishName{
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(163, 13, 13);
+}
+.description{
+  clear: both;
+  font-size: 18px;
+  line-height: 20px;
+}
+.date{
+  margin-top: 25px;
+  color: rgb(90, 88, 86);
+  font-weight: bold;
+}

@@ -1,28 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/css/style.css">
-    <title>Top</title>
-</head>
-<body>
-    <header>
-        <div class="logo">
-            <img src="#" alt="Logo">
-        </div>
-        <nav class="topnav">
-            <ul>
-                <li>Март</li>
-                <li>Апрель</li>
-                <li>Май</li>
-            </ul>
-        </nav>
-        <div class="city">
-            <p>Минск</p>
-        </div>
-    </header>
+<% include header.ejs %>
     <main>
         <div class="main_items">           
             <% for (let i = 0; i < data.categories.length; i++) { %>
@@ -32,9 +8,9 @@
                   <div class="dish">
                     <img src="<%= data.categories[i].dishes[j].img %>" alt="" height='150px'>
                     <div class="info">
-                      <div class="dishName"><%= data.categories[i].dishes[j].dish %></div>
+                      <div class="dishName">"<%= data.categories[i].dishes[j].dish %>"</div>
                       <div class="dishCost">Цена: <%= data.categories[i].dishes[j].cost %></div>
-                      <div class="dishRestaurant">Ресторан: <%= data.categories[i].dishes[j].restaurant %></div>
+                      <div class="dishRestaurant">Ресторан: "<%= data.categories[i].dishes[j].restaurant %>"</div>
                     </div>
                     <div class="description">
                       <p><%= data.categories[i].dishes[j].description  %></p>
@@ -43,11 +19,11 @@
                         <img src="#" alt="likes">
                         <span class="amount">0</span>
                     </div>
-                    <div class="date">
-                        <p><%= data.categories[i].dishes[j].date  %></p>
-                    </div>
                     <div class="topDish">
                         <img src="#" alt="star">
+                    </div>
+                    <div class="date">
+                        <p><%= data.categories[i].dishes[j].date  %></p>
                     </div>                    
                   </div>
                 <% } %>
