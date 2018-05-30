@@ -2,3 +2,61 @@
   margin: 0;
   padding: 0;
 }
+a{
+	text-decoration: none;
+}
+header{
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+}
+
+.topnav{
+  list-style: none;
+  position: relative;
+	background-color: #fff;
+	font-size: 25px;
+	margin-top: 15px;
+}
+.topnav li{
+  display: inline-block;
+  border-bottom: 1px solid #fff;
+}
+.topnav li:hover{
+  border-bottom: 2px solid #000;
+}
+.topnav li a{
+	color: #000;
+	text-align: center;
+	padding: 14px 16px;
+  border-bottom: 2px solid transparent;
+}
+.city{
+  font-size: 40px;
+  margin-top: 40px;
+  margin-right: 10px;
+}
+main{
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+}
+.main_items{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.category{
+  max-width: 700px;
+}
+.category > p{
+  font-size: 40px;
+  font-weight: bold;
+}
+.dish{
+  width: 100%;
+  border: 1px solid rgb(163, 13, 13);
+} 
