@@ -1,11 +1,11 @@
-swagger: '2.0'
+swagger: "2.0"
 info:
-  version: "1.0.0"
-  title: Credit-api
+  version: "0.0.1"
+  title: Credit App
 # during dev, should point to your local machine
 host: localhost:10010
 # basePath prefixes all resource paths 
-basePath: /
+basePath: /api/v1
 # 
 schemes:
   # tip: remove http to make production-grade
@@ -18,81 +18,92 @@ consumes:
 produces:
   - application/json
 paths:
-  /dishes:
+  /products:
     # binds a127 app logic to a route
-    x-swagger-router-controller: get_dishes
+    x-swagger-router-controller: get_products
     get:
-      description: Список блюд
+      description: List of products
       # used as the method name of the controller
-      operationId: getDishes
+      operationId: getProducts
       parameters:
-        - name: Филадельфия
+        - name: name
           in: query
-          description: cost $20 
-          required: false
+          description: The name of goods on the page
           type: string
-        - name: Калифорния  
+        - name: pageSize
           in: query
-          description: cost $15
-          required: false
-          type: string
-        - name: Нью-Йорк 
+          description: Number of products returned
+          type: number
+          format: integer
+        - name: pageNumber
           in: query
-          description: cost $19 
-          required: false
-          type: string
-        - name: Цезарь
-          in: query
-          description: cost $25
-          required: false
-          type: string  
-        - name: Оливье
-          in: query
-          description: cost $13 
-          required: false
-          type: string   
-        - name: Селедка под шубой
-          in: query
-          description: cost $18 
-          required: false
-          type: string  
-        - name: Маргарита
-          in: query
-          description: cost $17 
-          required: false
-          type: string 
-        - name: 4 Сыра
-          in: query
-          description: cost $28 
-          required: false
-          type: string 
-        - name: Пеперони
-          in: query
-          description: cost $21 
-          required: false
-          type: string 
+          description: Page number
+          type: number
+          format: integer
       responses:
-        "200":
+        200:
           description: Success
           schema:
-            # a pointer to a definition
-            $ref: "#/definitions/Jimuse-configureResponse"
+            type: array
+            items:
+             $ref: "#/definitions/Product"
         # responses may fall through to errors
-        "500":
-          description: Error
-          schema:
-            $ref: "#/definitions/ErrorResponse"
+            
+  /products/{productId}:
+  # binds a127 app logic to a route
+   x-swagger-router-controller: get_product
+   get:
+    summary: Gets a certain product
+    description: Single product for its ID
+    operationId: getProduct
+    parameters:
+     - name: productId
+       in: path
+       required: true
+       description: The product's id
+       type: string
+    responses:
+     200:
+      description: A Product
+      schema:
+       $ref: "#/definitions/Product"
+     404:
+      description: The product does not exists.
   /swagger:
-    x-swagger-pipe: swagger_raw
+   x-swagger-pipe: swagger_raw
 # complex objects have schema definitions
 definitions:
-  Jimuse-configureResponse:
-    required:
-      - message
-    properties:
-      message:
-        type: string
-  ErrorResponse:
+ Product:
+  type: object
+  properties:
+   id:
+    type: string
+    description: Unique indentifier of the product
+   name:
+    type: string
+    description: Short name of the product
+   description:
+    type: string
+    description: Full description of the product
+   price:
+    type: number
+    format: float
+    description: Price in a given currency
+   place:
+    type: string
+    description: Place where this product is served
+   data:
+    type: number
+    format: float
+    description: Time when the product was added to the site
+   image:
+    type: string
+    description: Image URL representing the product.
+   like:
+    type: number
+    format: float
+    description: Product evaluation
+ Error:
     required:
       - message
     properties:
