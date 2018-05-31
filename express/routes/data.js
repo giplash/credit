@@ -2,7 +2,7 @@ const faker = require('faker')
 module.exports =
 [
   {
-    "month": "march",
+    "month": "Март",
     "categories": [
       {
         "name": "Роллы",
@@ -103,7 +103,7 @@ module.exports =
     ]
   },
   {
-    "month": "april",
+    "month": "Апрель",
     "categories": [
       {
         "name": "Роллы",
@@ -204,7 +204,7 @@ module.exports =
     ]
   },
   {
-    "month": "may",
+    "month": "Май",
     "categories": [
       {
         "name": "Роллы",

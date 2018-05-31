@@ -1,6 +1,7 @@
 <% include header.ejs %>
-<main>
-    <div class="main_items">           
+<main>  
+    <div class="main_items">  
+      <h2 class="month" ><%= data.month %></h2>         
         <% for (let i = 0; i < data.categories.length; i++) { %>
           <div class="category">
             <p><%= data.categories[i].name %></p>
@@ -15,11 +16,9 @@
                 <div class="description">
                   <p><%= data.categories[i].dishes[j].description  %></p>
                 </div>
-                <% const width = data.categories[i].dishes[j].isFavorite ? '80px' : '0px'%>
-                    <!-- <div class="likes"> -->
+                <% const width = data.categories[i].dishes[j].isFavorite ? '80px' : '0px'%> 
                       <img class="like" src="/img/blackHeart.png" width="40px" alt="likes">
                       <span class="amount"><%= parseInt(Math.random() * 100) %></span>
-                    <!-- </div> -->
                     <img class="top" src="/img/star.png" width="<%= width %>" alt="star">
                 <div class="date">
                     <p><%= data.categories[i].dishes[j].date  %></p>
@@ -31,24 +30,5 @@
       </div>
     </div>
 </main>
-<script>
-  const likes = document.querySelectorAll('.like');
-  likes.forEach(function(item) {
-    item.addEventListener('click', function() {
-      if (!(this.getAttribute('clicked') == 'true')) {
-        this.setAttribute('src', '/img/redHeart.png');
-        this.setAttribute('clicked', 'true');
-        this.style.top = '2px';
-        this.style.width = '43px';
-        this.nextSibling.nextSibling.innerHTML = +this.nextSibling.nextSibling.innerHTML + 1
-      } else {
-        this.setAttribute('src', '/img/blackHeart.png');
-        this.setAttribute('clicked', 'false');
-        this.style.top = '5px';
-        this.style.width = '40px';
-        this.nextSibling.nextSibling.innerHTML = +this.nextSibling.nextSibling.innerHTML - 1
-      }        
-    })
-  })
-</script>
+<script src="js/script.js"></script>
 <% include footer.ejs %>
