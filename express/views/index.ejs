@@ -16,10 +16,17 @@
                   <p><%= data.categories[i].dishes[j].description  %></p>
                 </div>
                 <% const width = data.categories[i].dishes[j].isFavorite ? '80px' : '0px'%>
+<<<<<<< HEAD
        
                     <img class="like" src="/img/blackHeart.png" width="40px" alt="likes">
                     <span class="amount"><%= parseInt(Math.random() * 100) %></span>
        
+=======
+                    <div class="likes">
+                      <img class="like" src="/img/blackHeart.png" width="40px" alt="likes">
+                      <span class="amount"><%= parseInt(Math.random() * 100) %></span>
+                    </div>
+>>>>>>> 908df3c1e7ce2e9b51689285a3e8a840c35f4784
                     <img class="top" src="/img/star.png" width="<%= width %>" alt="star">
                 <div class="date">
                     <p><%= data.categories[i].dishes[j].date  %></p>
