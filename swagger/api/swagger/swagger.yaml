@@ -76,9 +76,6 @@ definitions:
  Product:
   type: object
   properties:
-   id:
-    type: string
-    description: Unique indentifier of the product
    name:
     type: string
     description: Short name of the product
