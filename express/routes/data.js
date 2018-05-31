@@ -24,7 +24,7 @@ module.exports =
             "date": "10.03.2018",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "isFavorite": false,
-            "img": "/img/rolls.png",
+            "img": "/img/rolls1.png",
             "id": 2
           },
           {
@@ -34,7 +34,7 @@ module.exports =
             "date": "25.03.2018",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "isFavorite": false,
-            "img": "/img/rolls.png",
+            "img": "/img/rolls3.png",
             "id": 3
           }
         ]
@@ -49,7 +49,7 @@ module.exports =
             "date": "15.03.2018",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "isFavorite": true,
-            "img": "/img/pizza.png",
+            "img": "/img/pizza2.png",
             "id": 4
           },
           {
@@ -59,7 +59,7 @@ module.exports =
             "date": "12.03.2018",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "isFavorite": false,
-            "img": "/img/pizza.png",
+            "img": "/img/pizza3.png",
             "id": 5
           },
           {
@@ -69,7 +69,7 @@ module.exports =
             "date": "22.03.2018",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "isFavorite": false,
-            "img": "/img/pizza.png",
+            "img": "/img/pizza1.png",
             "id": 6
           }
         ]
@@ -94,7 +94,7 @@ module.exports =
             "date": "17.03.2018",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "isFavorite": false,
-            "img": "/img/salad.png",
+            "img": "/img/salad3.png",
             "id": 8
           },
           {
@@ -104,7 +104,7 @@ module.exports =
             "date": "29.03.2018",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "isFavorite": false,
-            "img": "/img/salad.png",
+            "img": "/img/salad2.png",
             "id": 9
           }
         ]
@@ -118,13 +118,13 @@ module.exports =
         "name": "Роллы",
         "dishes": [
           {
-            "dish": "Филадельфия",
+            "dish": "Сан-Франциско",
             "cost": 20,
             "restaurant": "Листопад",
             "date": "15.04.2018",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "isFavorite": true,
-            "img": "/img/rolls.png",
+            "img": "/img/rolls3.png",
             "id": 10
           },
         {
@@ -144,7 +144,7 @@ module.exports =
             "date": "14.04.2018",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "isFavorite": false,
-            "img": "/img/rolls.png",
+            "img": "/img/rolls1.png",
             "id": 12
           }
         ]
@@ -159,7 +159,7 @@ module.exports =
             "date": "05.04.2018",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "isFavorite": true,
-            "img": "/img/salad.png",
+            "img": "/img/salad3.png",
             "id": 13
           },
         {
@@ -179,7 +179,7 @@ module.exports =
             "date": "25.04.2018",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "isFavorite": false,
-            "img": "/img/salad.png",
+            "img": "/img/salad2.png",
             "id": 15
           }
         ]
@@ -194,7 +194,7 @@ module.exports =
             "date": "07.04.2018",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "isFavorite": true,
-            "img": "/img/pizza.png",
+            "img": "/img/pizza3.png",
             "id": 16
           },
         {
@@ -204,7 +204,7 @@ module.exports =
             "date": "08.04.2018",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "isFavorite": false,
-            "img": "/img/pizza.png",
+            "img": "/img/pizza2.png",
             "id": 17
           },
           {
@@ -228,13 +228,13 @@ module.exports =
         "name": "Роллы",
         "dishes": [
           {
-            "dish": "Phila",
+            "dish": "Алжир",
             "cost": 30,
             "restaurant": "Красный октябрь",
             "date": "20.03.2018",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "isFavorite": true,
-            "img": "/img/rolls.png",
+            "img": "/img/rolls2.png",
             "id": 19
           },
           {
@@ -244,7 +244,7 @@ module.exports =
             "date": "01.05.2018",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "isFavorite": false,
-            "img": "/img/rolls.png",
+            "img": "/img/rolls3.png",
             "id": 20
           },
           {
@@ -279,7 +279,7 @@ module.exports =
             "date": "07.05.2018",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "isFavorite": false,
-            "img": "/img/pizza.png",
+            "img": "/img/pizza2.png",
             "id": 23
           },
           {
@@ -289,7 +289,7 @@ module.exports =
             "date": "30.02.2018",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "isFavorite": false,
-            "img": "/img/pizza.png",
+            "img": "/img/pizza3.png",
             "id": 24
           }
         ]
@@ -304,7 +304,7 @@ module.exports =
             "date": "09.05.2018",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "isFavorite": true,
-            "img": "/img/salad.png",
+            "img": "/img/salad1.png",
             "id": 25
           },
           {
@@ -324,7 +324,7 @@ module.exports =
             "date": "24.02.2018",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "isFavorite": false,
-            "img": "/img/salad.png",
+            "img": "/img/salad3.png",
             "id": 27
           }
         ]

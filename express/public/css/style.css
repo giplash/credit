@@ -6,6 +6,9 @@
 a{
 	text-decoration: none;
 }
+.city > p {
+  margin-left: 30px;
+}
 header{
   width: 100%;
   overflow: hidden;
