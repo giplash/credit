@@ -3,15 +3,13 @@ const likes = document.querySelectorAll('.like');
     item.addEventListener('click', function() {
       if (!(this.getAttribute('clicked') == 'true')) {
         this.setAttribute('src', '/img/redHeart.png');
+        this.setAttribute('style', `animation: anima 0.3s ease`);
         this.setAttribute('clicked', 'true');
-        this.style.top = '5px';
-        this.style.width = '40px';
         this.nextSibling.nextSibling.innerHTML = +this.nextSibling.nextSibling.innerHTML + 1
       } else {
-        this.setAttribute('src', '/img/blackHeart.png');
+        this.setAttribute('src', '/img/greyHeart.png');
         this.setAttribute('clicked', 'false');
-        this.style.top = '5px';
-        this.style.width = '40px';
+        this.setAttribute('style', `animation: anima2 0.3s ease`);
         this.nextSibling.nextSibling.innerHTML = +this.nextSibling.nextSibling.innerHTML - 1
       }        
     })
